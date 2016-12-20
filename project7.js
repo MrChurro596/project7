@@ -37,6 +37,12 @@ function drawCircle(x, y, size, color) {
 
 }
 
+function ClearBoard() {
+
+  screen.innerHTML = ''
+
+}
+
 document.addEventListener("mousedown", function(e) {
 
   draw = true
